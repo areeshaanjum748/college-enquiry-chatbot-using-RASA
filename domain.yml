@@ -1,0 +1,51 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - courses
+  - my_name_is
+  - ask_apply_online
+  - ask_placements
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_courses:
+  - text: "CU offers industry-oriented professional programs in Engineering, MBA, MCA, Journalism, Hotel Management, Bio-Technology, Pharmacy, Architecture, and many more with the lowest course fee as compared to other universities in the region. For more information visit our official site 'https://www.cuchd.in/admissions/course-fee.php'"
+
+  utter_my_name_is:
+  - text: "Nice to meet you {person}" 
+
+  utter_ask_apply_online:
+  - text: "CU provides offline as well as online admission procedure. Online admission procedure focuses on CUCET examination. Apply Now on 'https://www.cuchd.in/admissions/how-to-apply.php'!"
+
+  utter_ask_placements:
+  - text: "Highest Package in 2021-22 Engineering - ₹36LPA, MBA - ₹28LPA, Hotel Management - ₹18LPA. For detailed information visit 'https://www.cuchd.in/placements/'"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
