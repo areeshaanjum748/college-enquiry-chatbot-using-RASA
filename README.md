@@ -38,5 +38,5 @@ Train rasa using **rasa train** command on the rasa shell.
 
 ### Step - 6
 
-1. Run rasa on the same port you are running your web application uisng command ' rasa run -m models --enable-api --cors "*" '
-2. Open your web application using any browser and see how well your chatbot is responding to user's queries.
+1. Run rasa on the same port you are running your web application using command ' rasa run -m models --enable-api --cors "*" '
+2. Open your web application using any browser and see how well your chatbot is responding to your queries.
