@@ -1,0 +1,138 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: courses
+  examples: |
+    - what different courses are offered
+    - different courses provided by the university
+    - list of different courses
+    - list of different programs
+    - can you help me with the programs Chandigarh university offers
+    - different programs offered by the University
+    - different training programs offered
+
+- intent: my_name_is
+  examples: |
+   - [Shariq Ayaz] (person)
+   - I am [Areesha] (person)
+   - I am [Ashna] (person)
+   - I'm [Aliyah] (person)
+   - I am [Rahil Inzamam] (person)
+   - My name is [Jamal Anjum] (person)
+   - My name is [Nazin] (person)
+   - I am [Sana] (person)
+   - Myself [Ahad] (person)
+   - This side [Samad] (person)
+
+- intent: ask_apply_online
+  examples: |
+   - Can I apply online?
+   - How can I apply online?
+   - Online application process
+   - Online application procedure
+   - What is online application process?
+   - Can you tell me the online application process?
+   - Is it possible to apply online?
+   - Is there any way to apply online?
+   - Can you please help me with the process of online application?
+
+- intent: ask_placements
+  examples: |
+   - placement offers
+   - what are the previous placement offers?
+   - different placement offers offered to students
+   - different companies offers
+   - different placement offered
+   - previous placement offers
+   - what are the different placement offers offered to students
+   - student's placement offers
